@@ -20,7 +20,7 @@ namespace COMP123_S2019_Lab10_301001793
         private void BackButton_Click(object sender, EventArgs e)
         {            
             Program.mainForm.Show();
-            Hide();
+            Program.endForm.Hide();
         }
 
         private void EndForm_FormClosing(object sender, FormClosingEventArgs e)

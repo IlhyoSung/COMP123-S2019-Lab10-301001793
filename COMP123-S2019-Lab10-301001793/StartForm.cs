@@ -26,7 +26,7 @@ namespace COMP123_S2019_Lab10_301001793
         {
             SplashTimer.Enabled = false;            
             Program.mainForm.Show();
-            Hide();
+            Program.startForm.Hide();
         }        
     }
 }
